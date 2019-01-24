@@ -1,5 +1,5 @@
 
-# PGR200 Hovedinnlevering 
+# PGR200 Eksamens Innlevering
 Laget av: Mikael Peter Svanåsbakken & Christopher Marchand
 
 # Hva var oppgaven vi skulle løse?
