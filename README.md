@@ -2,7 +2,7 @@
 # PGR200 Hovedinnlevering 
 Laget av: Mikael Peter Svanåsbakken & Christopher Marchand
 
-#Hva var oppgaven vi skulle løse?
+# Hva var oppgaven vi skulle løse?
 "Du har funnet en konferanse du er interessert i å gå på, men du har ikke råd til billetten. Men frykt ikke: etter at du tok kontakt med de som organiserer konferansen fikk du høre at du kunne få gratisbillett dersom du hjelper til å lage noe programvare for konferansen.
 
 Oppgaven din: lag en server for appen som inneholder konferanseprogrammet i en database. Funksjonaliteten må som et minimum tillate at man legger inn og lister ut foredrag på konferansen. Du bruke datamodellen angitt under eller forenkle eller endre den slik du selv ønsker.
