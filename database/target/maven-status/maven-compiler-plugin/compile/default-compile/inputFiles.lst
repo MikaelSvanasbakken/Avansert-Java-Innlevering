@@ -1,0 +1,13 @@
+/Users/christophermarchand/Documents/Westerdals_Kristiania/Year_tw0/Avansert Javaprogrammering/pgr200-eksamen-ChrisFFRR/database/src/main/java/no/kristiania/pgr200/database/dao/RoomDao.java
+/Users/christophermarchand/Documents/Westerdals_Kristiania/Year_tw0/Avansert Javaprogrammering/pgr200-eksamen-ChrisFFRR/database/src/main/java/no/kristiania/pgr200/database/entity/Talk.java
+/Users/christophermarchand/Documents/Westerdals_Kristiania/Year_tw0/Avansert Javaprogrammering/pgr200-eksamen-ChrisFFRR/database/src/main/java/no/kristiania/pgr200/database/dao/AbstractDao.java
+/Users/christophermarchand/Documents/Westerdals_Kristiania/Year_tw0/Avansert Javaprogrammering/pgr200-eksamen-ChrisFFRR/database/src/main/java/no/kristiania/pgr200/database/DatabaseHandler/DatabaseHandler.java
+/Users/christophermarchand/Documents/Westerdals_Kristiania/Year_tw0/Avansert Javaprogrammering/pgr200-eksamen-ChrisFFRR/database/src/main/java/no/kristiania/pgr200/database/dao/TimeslotDao.java
+/Users/christophermarchand/Documents/Westerdals_Kristiania/Year_tw0/Avansert Javaprogrammering/pgr200-eksamen-ChrisFFRR/database/src/main/java/no/kristiania/pgr200/database/dao/ResultSetMapper.java
+/Users/christophermarchand/Documents/Westerdals_Kristiania/Year_tw0/Avansert Javaprogrammering/pgr200-eksamen-ChrisFFRR/database/src/main/java/no/kristiania/pgr200/database/entity/Room.java
+/Users/christophermarchand/Documents/Westerdals_Kristiania/Year_tw0/Avansert Javaprogrammering/pgr200-eksamen-ChrisFFRR/database/src/main/java/no/kristiania/pgr200/database/entity/TalkFormatted.java
+/Users/christophermarchand/Documents/Westerdals_Kristiania/Year_tw0/Avansert Javaprogrammering/pgr200-eksamen-ChrisFFRR/database/src/main/java/no/kristiania/pgr200/database/dao/TopicDao.java
+/Users/christophermarchand/Documents/Westerdals_Kristiania/Year_tw0/Avansert Javaprogrammering/pgr200-eksamen-ChrisFFRR/database/src/main/java/no/kristiania/pgr200/database/entity/Timeslot.java
+/Users/christophermarchand/Documents/Westerdals_Kristiania/Year_tw0/Avansert Javaprogrammering/pgr200-eksamen-ChrisFFRR/database/src/main/java/no/kristiania/pgr200/database/dao/TalkDao.java
+/Users/christophermarchand/Documents/Westerdals_Kristiania/Year_tw0/Avansert Javaprogrammering/pgr200-eksamen-ChrisFFRR/database/src/main/java/no/kristiania/pgr200/database/dataSource/DatabaseConnector.java
+/Users/christophermarchand/Documents/Westerdals_Kristiania/Year_tw0/Avansert Javaprogrammering/pgr200-eksamen-ChrisFFRR/database/src/main/java/no/kristiania/pgr200/database/entity/Topic.java

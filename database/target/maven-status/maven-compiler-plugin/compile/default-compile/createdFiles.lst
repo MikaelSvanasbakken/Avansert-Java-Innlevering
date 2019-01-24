@@ -1,0 +1,13 @@
+no/kristiania/pgr200/database/dao/ResultSetMapper.class
+no/kristiania/pgr200/database/dao/AbstractDao.class
+no/kristiania/pgr200/database/entity/TalkFormatted.class
+no/kristiania/pgr200/database/entity/Room.class
+no/kristiania/pgr200/database/entity/Topic.class
+no/kristiania/pgr200/database/entity/Talk.class
+no/kristiania/pgr200/database/entity/Timeslot.class
+no/kristiania/pgr200/database/DatabaseHandler/DatabaseHandler.class
+no/kristiania/pgr200/database/dao/TopicDao.class
+no/kristiania/pgr200/database/dataSource/DatabaseConnector.class
+no/kristiania/pgr200/database/dao/TimeslotDao.class
+no/kristiania/pgr200/database/dao/TalkDao.class
+no/kristiania/pgr200/database/dao/RoomDao.class

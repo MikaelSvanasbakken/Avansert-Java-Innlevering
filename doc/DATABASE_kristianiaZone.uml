@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>bbf59fce-9987-4f7e-9989-710376c4ea76.DATABASE:kristianiaZone</OriginalElement>
+  <nodes>
+    <node x="81.5" y="270.0">bbf59fce-9987-4f7e-9989-710376c4ea76.TABLE:kristianiaZone.public.talk</node>
+    <node x="172.0" y="135.0">bbf59fce-9987-4f7e-9989-710376c4ea76.TABLE:kristianiaZone.public.topic</node>
+    <node x="0.0" y="124.0">bbf59fce-9987-4f7e-9989-710376c4ea76.TABLE:kristianiaZone.public.timeslot</node>
+    <node x="37.5" y="0.0">bbf59fce-9987-4f7e-9989-710376c4ea76.TABLE:kristianiaZone.public.room</node>
+    <node x="384.0" y="0.0">bbf59fce-9987-4f7e-9989-710376c4ea76.TABLE:kristianiaZone.public.flyway_schema_history</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bbf59fce-9987-4f7e-9989-710376c4ea76.TABLE:kristianiaZone.public.talk" target="bbf59fce-9987-4f7e-9989-710376c4ea76.TABLE:kristianiaZone.public.room">
+      <point x="0.0" y="-81.0" />
+      <point x="161.5" y="99.0" />
+      <point x="159.0" y="99.0" />
+      <point x="40.5" y="37.0" />
+    </edge>
+    <edge source="bbf59fce-9987-4f7e-9989-710376c4ea76.TABLE:kristianiaZone.public.timeslot" target="bbf59fce-9987-4f7e-9989-710376c4ea76.TABLE:kristianiaZone.public.room">
+      <point x="0.0" y="-48.0" />
+      <point x="75.5" y="99.0" />
+      <point x="78.0" y="99.0" />
+      <point x="-40.5" y="37.0" />
+    </edge>
+    <edge source="bbf59fce-9987-4f7e-9989-710376c4ea76.TABLE:kristianiaZone.public.talk" target="bbf59fce-9987-4f7e-9989-710376c4ea76.TABLE:kristianiaZone.public.topic">
+      <point x="53.333333333333314" y="-81.0" />
+      <point x="214.83333333333331" y="245.0" />
+      <point x="255.5" y="245.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="bbf59fce-9987-4f7e-9989-710376c4ea76.TABLE:kristianiaZone.public.talk" target="bbf59fce-9987-4f7e-9989-710376c4ea76.TABLE:kristianiaZone.public.timeslot">
+      <point x="-53.33333333333334" y="-81.0" />
+      <point x="108.16666666666666" y="245.0" />
+      <point x="75.5" y="245.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0655832662210836" x="372.2734273806387" y="157.18246611680416" />
+  <SelectedNodes>
+    <node>bbf59fce-9987-4f7e-9989-710376c4ea76.TABLE:kristianiaZone.public.room</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
