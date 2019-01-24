@@ -1,6 +1,17 @@
 
 # PGR200 Hovedinnlevering 
-Laget av: Svamik17 & Marchr17
+Laget av: Mikael Peter Svanåsbakken & Christopher Marchand
+
+#Hva var oppgaven vi skulle løse?
+"Du har funnet en konferanse du er interessert i å gå på, men du har ikke råd til billetten. Men frykt ikke: etter at du tok kontakt med de som organiserer konferansen fikk du høre at du kunne få gratisbillett dersom du hjelper til å lage noe programvare for konferansen.
+
+Oppgaven din: lag en server for appen som inneholder konferanseprogrammet i en database. Funksjonaliteten må som et minimum tillate at man legger inn og lister ut foredrag på konferansen. Du bruke datamodellen angitt under eller forenkle eller endre den slik du selv ønsker.
+
+Programmet skal følge god programmeringsskikk: Det skal ha enhetstester, det skal ha en god README-dokumentasjon, det skal hente inn konfigurasjon fra en .properties-fil. Fila skal ligge i current working directory, hete innlevering.properties og inneholde properties dataSource.url, dataSource.username og dataSource.password. Når vi evaluerer oppgaven ønsker vi å bruke egne verdier for disse. Prosjektet bør også bygge automatisk på Travis CI.
+
+Pass på at det er godt med tester, at koden kompilerer og kjører ok med "mvn test" og at du beskriver hvordan man tester løsningen manuelt."
+
+
 
 # Hvordan kjøre programmet
 
@@ -63,80 +74,3 @@ Vi vil gjerne gjøre de som vurderer denne innleveringen oppmerksom på at vi ha
 - Jobbet via Discord, og møtte opp på skolen.
 
 
-## Sjekkliste for innleveringen
-
-- [ ] Kodekvalitet
-  - [x] Koden er klonet fra GitHub classrom
-  - [X] Produserer `mvn package` en executable jar? (tips: Bruk `maven-shade-plugin`)
-  - [X] Bruker koden Java 8 og UTF-8
-  - [X] Bygger prosjektet på [https://travis-ci.com](https://travis-ci.com)?
-  - [ ] Har du god test-dekning? (tips: Sett opp jacoco-maven-plugin til å kreve at minst 65% av linjene har testdekning)
-  - [X] Er koden delt inn i flere Maven `<modules>`?
-  - [X] Bruker kommunikasjon mellom klient og server HTTP korrekt?
-  - [X] Kobler serveren seg opp mot PostgreSQL ved hjelp av konfigurasjon i fila `innlevering.properties` i *current working directory* med `dataSource.url`, `dataSource.username`, `dataSource.password`?
-- [ ] Funksjonalitet
-  - [X] add: Legg til et foredrag i databasen med title, description og topic (valgfritt)
-  - [X] list: List opp alle foredrag i basen 
-  - [ ] show: Vis detaljer for et foredrag
-  - [X] update: Endre title, description eller topic for et foredrag
-  - [ ] Valgfri tillegg: Kommandoer for å sette opp hvor mange dager og timer konferansen skal vare og hvor mange parallelle spor den skal inneholde.
-- [X] Dokumentasjon i form av README.md
-  - [X] Navn og Feide-ID på dere de som var på teamet
-  - [X] Inkluderer dokumentasjonen hvordan man tester ut funksjonaliteten programmet manuelt? (Inkludert eventuell ekstra funksjonalitet dere har tatt med)
-  - [X] Inkluderer dokumentasjonen en evaluering av hvordan man jobbet sammen?
-  - [X] Inkluderer dokumentasjonen en screencast av en parprogrammeringsesjon?
-  - [ ] Inkluderer dokumentasjonen en evaluering *fra* en annen gruppe og en evaluering *til* en annen gruppe?
-  - [X] Inkluderer dokumentasjonen en UML diagram med datamodellen?
-  - [X] Inkluderer dokumentasjonen en link til screencast av programmeringsesjon?
-  - [X] Inkluderer dokumentasjonen en egenevaluering med hvilken karakter gruppen mener de fortjener?
-
-### Forberedelse
-
-- [X] Finn endelig grupperpartner innen 1. november
-- [X] Finn en gruppe for gjensidig evaluering innen 1. november
-
-### Innlevering
-
-- [X] Gi veilederne `hakonschutt` og `mudasar187` tilgang til repository
-- [ ] Tag koden med `innlevering` i GitHub
-- [ ] Ta en zip-eksport fra GitHub
-- [ ] Last opp zip-fil i WiseFlow
-- [X] Dersom innlevering #1 eller innlevering #2 ikke ble godkjent *i WiseFlow*, last opp zip-fil med hver av disse innleveringene
-
-## Retningslinjer for vurdering
-
-### Minimum krav for bestått
-
-- Kompilerende kode som er sjekket inn i GitHub
-- Tester som gjør noe ikke totalt ufornuftig (eksempel på ufornuftlig `assertTrue(true)` eller `assertEquals(4, 2+2)`)
-- Kjørbart program som legger inn data i databasen
-
-### Minimum krav for C
-
-- Skriv og les programmet fra databasen i Java i henhold til deres egen dokumentasjon
-- Les og skriv data over socket
-- Kode lagret på GitHub, kompilerer og utfører en oppgave uten å krasje
-
-### Minimum krav for B
-
-De fleste av følgende må være oppfyllt:
-
-- Et rimelig nivå med enhetstester som kjører på Travis CI
-- Kode uten større skrivefeil, feil innrykk, slukte exceptions eller advarsler fra Eclipse
-- Readme som beskriver 4-10 steg for å demonstrere programmet
-- God kode: Enkel, konsis, uttrykksfull, velformattert kode uten vestlige feil eller mangler
-- Ingen alvorlige feil, SQL injection hull, krasj ved uventet input
-
-### Krav for A
-
-Løsningen må oppfylle alle krav til B og ha 2-3 områder som hever den ytterligere:
-
-- Velskrevet (men ikke nødvendigvis omfattende) dokumentasjon
-- At videoen får fram kvalitetene i designet
-- Uttrykksfulle enhetstester som er effektive på å fange feil og som kjører på Travis CI
-- En velbegrunnet datamodell med 4-8 klasser
-- En lettfattelig og utvidbar http-server
-- Spennende generisk kode som egentlig er unødvendig kompleks for å løse problemet
-- Enkel kode som løser problemet presist og konsist (i konflikt med forrige)
-
-Grupper på 3 må ha flere av disse enn grupper på 2 for å få en A.
