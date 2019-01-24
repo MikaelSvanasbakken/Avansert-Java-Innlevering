@@ -17,7 +17,7 @@ Pass på at det er godt med tester, at koden kompilerer og kjører ok med "mvn t
 
 [![Build Status](https://travis-ci.com/Westerdals/pgr200-eksamen-ChrisFFRR.svg?token=BLkMpfb4QjWubHqxD1yb&branch=master)](https://travis-ci.com/Westerdals/pgr200-eksamen-ChrisFFRR)
 
-* OBS innlevering.properties ligger i pgr200-eksamen-ChrisFFRR/database/src/main/resources/innlevering.properties
+* OBS innlevering.properties ligger i /database/src/main/resources/innlevering.properties
   
   * åpne terminal og naviger til prosjektmappe
   * kjør mvn clean install i prosjektfolder 
